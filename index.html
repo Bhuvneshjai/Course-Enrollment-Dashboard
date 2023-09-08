@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-4">
+        <h2 class="mb-4">Available Courses</h2>
+        <div class="mb-3">
+            <input type="text" class="form-control" id="courseFilter" placeholder="Filter by instructor or title..."
+                oninput="updateDisplay()">
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Instructor</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="course-list"></tbody>
+        </table>
+
+        <div class="button-container">
+            <button id="loadMoreButton" class="btn btn-primary" onclick="loadMoreCourses()">Load More</button>
+        </div>
+
+        <h2 class="mt-5 mb-4">Enrolled Courses</h2>
+        <table class="table table-striped">
+            <tbody id="enrolled-courses"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
