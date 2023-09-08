@@ -17,3 +17,6 @@ An intuitive and user-friendly dashboard for students to enroll in various cours
 
 ## Screenshot
 ![image](https://github.com/Bhuvneshjai/Course-Enrollment-Dashboard/assets/82877515/591556f6-efe7-41f6-b2f7-b269676861d1)
+
+## URL
+https://bhuvneshjai.github.io/Course-Enrollment-Dashboard/
