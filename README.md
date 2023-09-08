@@ -14,3 +14,6 @@ An intuitive and user-friendly dashboard for students to enroll in various cours
     *  git clone https://github.com/Bhuvneshjai/Course-Enrollment-Dashboard.git
 2. Open index.html in your favorite browser.
 3. Explore and enroll in your desired courses!
+
+## Screenshot
+![image](https://github.com/Bhuvneshjai/Course-Enrollment-Dashboard/assets/82877515/591556f6-efe7-41f6-b2f7-b269676861d1)
